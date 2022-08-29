@@ -1,4 +1,60 @@
-.text {
-  font-size: 25px;
-  background-color: bisque;
+body {
+  font-family: 'Signika Negative', sans-serif;
+}
+
+ul {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid tomato;
+}
+
+.list-item {
+  text-align: center;
+}
+
+span {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px;
+  background-color: navy;
+  vertical-align: middle;
+}
+
+.list-item:first-child>a {
+  text-align: end;
+}
+
+.list-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.btn-link {
+  display: inline-block;
+  padding: 20px 30px;
+  text-decoration: none;
+  background-color: green;
+  color: white;
+}
+
+.list-item:nth-of-type(2)>a {
+  background-color: aqua;
+  color: black;
+}
+
+.list-item:nth-of-type(3)>a {
+  background-color: navy;
+}
+
+.list-item:last-child>a {
+  background-color: black;
+  color: white;
 }
